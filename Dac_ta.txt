@@ -1,0 +1,9 @@
+Đặc tả phần mềm quản lý kho
+Nhu cầu:
+- Cần quản lý thêm, xoá, sửa (CURD)
+	+ Object(Đối tượng)
+	+ Stock/Unit(Đơn vị tính)
+	+ Supplier
+	+ Customer
+	+ Input/Output(Phiếu nhập xuất)
+- 
