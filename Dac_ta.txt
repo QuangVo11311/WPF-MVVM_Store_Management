@@ -1,9 +1,60 @@
 Đặc tả phần mềm quản lý kho
 Nhu cầu:
-- Cần quản lý thêm, xoá, sửa (CURD)
+- Cần quản lý thêm, xoá, sửa(CURD)
 	+ Object(Đối tượng)
+		*Id
+		*DisplayName
+		*IdUnit
+		*IdSupplier
+
 	+ Stock/Unit(Đơn vị tính)
+		*IdUnit
+		*DisplayName
+		
 	+ Supplier
+		*IdSupplier
+		*DisplayName
+		*Address
+		*Phone
+		*Email
+		*ContractDate
+		*MoreInfo
+
 	+ Customer
-	+ Input/Output(Phiếu nhập xuất)
+		*IdCustomer
+		*DisplayName
+		*Address
+		*Phone
+		*Email
+		*ContractDate
+		*MoreInfo
+
+	+ Input(Phiếu nhập)
+		*IdInput
+		*DateInput
+
+	+ InputInfo
+		*IdInputInfo
+		*IdObject
+		*IdInput
+		*Count
+		*InputPrice
+		*OutputPrice
+		*Status
+
+	+ Output(Phiếu xuất)
+		*IdOutput
+		*DateOutput
+
+	+ OutputInfo
+		*IdOutputInfo
+		*IdObject
+		*IdInputInfo
+		*IdOutput
+		*IdCustomer
+		*Count
+		*DateOutput
+		*Status
+
+	+ Report view update every time table changed
 - 
